@@ -1,0 +1,33 @@
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: ghostwhite;
+}
+
+ul.breadcrumb li {display: inline;}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {color: lightseagreen;}
+
+
+.tip {
+    background-color: lightskyblue;
+    border-radius: 4px;
+}
+
+.container {
+    text-align: middle;
+    width: 400px;
+    margin:0 auto;
+    font-family: "roboto", sans-serif;
+}
+
+.breadcrumb {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+}
