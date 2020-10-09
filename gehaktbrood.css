@@ -21,13 +21,36 @@ ul.breadcrumb li a {color: lightseagreen;}
 }
 
 .container {
-    text-align: middle;
+    margin:0 auto;
     width: 400px;
     margin:0 auto;
     font-family: "roboto", sans-serif;
 }
 
+.title {
+    border-bottom: 1px solid black;
+}
+
 .breadcrumb {
     text-align: center;
     font-family: "roboto", sans-serif;
+}
+img.left {
+    float: center;
+    width: 400px;
+    margin-right:10px;
+    border-style: solid;
+}
+img.right {
+    float: center;
+    margin-right:10px;
+    width: 400px;
+    border-style: solid;
+}
+img.middle {
+	float: center;
+    width: 400px;
+    height: 400px;
+	margin-right:10px;
+    border-style: solid;
 }
